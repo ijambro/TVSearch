@@ -31,8 +31,8 @@ public class TivoShowLoader extends AbstractShowLoader {
         System.out.println();
 
         OAuthSignatureGenerator oauth = new OAuthSignatureGenerator();
-        String consumerKey = "5408e9916958a999a2ab762bde87f0b4f4c5ba4b116bc5e5e08f4cf2100c0c90";
-        String consumerSecret = "f0dd1f7b19ba18d3e333a3b011926b83214e7154579f9eaad434994c4e8d3c88";
+        String consumerKey = "";
+        String consumerSecret = "";
         
         String oauthHeader = null;
         try {
